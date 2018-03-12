@@ -1,2 +1,5 @@
 developer@developer:/var/www/html/501$ sudo subl /etc/php/7.0/apache2/php.ini
+
 developer@developer:/var/www/html/501$ sudo service apache2 restart
+
+=========================================================================
