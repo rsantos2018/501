@@ -3,3 +3,12 @@ developer@developer:/var/www/html/501$ sudo subl /etc/php/7.0/apache2/php.ini
 developer@developer:/var/www/html/501$ sudo service apache2 restart
 
 =========================================================================
+
+git init
+git add .
+git commit -m "aula01"
+===================
+No github criar novo repositorio
+=============================
+git remote add origin "url"
+git push origin master
