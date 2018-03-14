@@ -14,13 +14,9 @@ Class Carro{
 	private $marcha;
 
 	
-
-	public function verCor(){
-		return "A cor do carro é: " . $this->cor;
-	}
-
-	public function verMarca(){
-		return "A marca do carro é: " . $this->marca;
+	public function___construct($cor, $marca){
+		$this->cor= $cor;
+		$this->marca=$marca;
 	}
 
 	public function acelelar(){
@@ -31,13 +27,12 @@ Class Carro{
 		$this->velocidade -=10;
 	}
 
-	public function trocarMarcha($primeiraMarcha){
-		$this->velocidade=20;
-
+	public function trocarMarcha($marcha){
+		$this->marcha=$marcha;
 	}
 
-	public function trocarMarchar($segundaMarcha){
-		$this->velocidade=30;
+	public function verVelocidade(){
+		return  "A velocidade atual é: " $this->velocidade;
 	}
 
 }

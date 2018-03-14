@@ -12,3 +12,6 @@ No github criar novo repositorio
 =============================
 git remote add origin "url"
 git push origin master
+====================
+git clone https://github.com/rsantos2018/501.git
+========================================
