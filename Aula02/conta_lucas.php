@@ -68,6 +68,13 @@ class ContaCorrente extends Conta
 	}
 }
 
+class ContaPoupanca extends Conta
+{
+	public function poupanca(int $valor){
+		$this->setPoupanca($this->getPoupanca() * 0.02)
+	}
+}
+
 $cc = new ContaCorrente("Lucas", 500);
 // $cc->gerarNumConta();
 $cc->depositar(100);

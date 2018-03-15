@@ -19,7 +19,7 @@ Class Carro{
 		$this->marca=$marca;
 	}
 
-	public function acelelar(){
+	public function acelerar(){
 		$this->velocidade +=10;
 	}
 
@@ -37,4 +37,16 @@ Class Carro{
 
 }
 
-$carro->
+$uno = new Carro();
+$uno->cor = "Azul";
+$uno->marca = "fiat";
+$uno->modelo = "Uno 1.0";
+$uno->acelerar();
+$uno->acelerar();
+$uno->acelerar();
+$uno->acelerar();
+echo "Velocidade atual: " . $uno->velocidade . "<br>";
+$uno->freiar();
+echo "Velocidade atual: " . $uno->velocidade . "<br>";
+var_dump($uno);
+

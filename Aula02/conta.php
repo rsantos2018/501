@@ -1,5 +1,15 @@
 <?php
 
+//Três contas - Conta corrente, salário e poupança;
+//conta poupança = titular / numero da conta / saldo / senha / sacar e depositar;
+//conta corrente = titulal / numero da conta / saldo / senha / cheque especial / sacar / depositar e libera cheque especial;
+//conta salario = titular / numero da conta / saldo / senha / cheque especial (opcional) / sacar/ depositar / e liberar
+                 //cheque especial (opcional);
+//Poupança = dar 2% sobre o valor do depósito para cliente;
+
+
+
+
 abstract class Conta
 {
 	private $titular;
