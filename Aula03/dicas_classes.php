@@ -7,3 +7,6 @@ Objeto = País;
 classe = Modo como está modelando o objeto;
 Atributos = Tamanho do país, cor do país, etc..
 Método = colocando estados e cidades e tirando estados e cidades.
+
+metodo final - não pode ser sobrescristo.
+classe final - não pode ter herdeiro.
