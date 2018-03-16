@@ -1,6 +1,8 @@
 <?php 
 namespace Model;
+
 use Model\Aluno;
+
 class Turma
 {
 	private $aluno;
