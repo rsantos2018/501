@@ -6,7 +6,7 @@ $conexao->exec($sql);
 
 $sql = "INSERT INTO tb_alunos(nome, email, senha, cpf, rg, dtNasc) VALUES('Reginaldo','regi35@terra.com.br', '123','123','123','2014-05-25')";
 
-$sql = "INSERT INTO tb_alunos(nome, email, senha, cpf, rg, dtNasc) VALUES('Ricardo','ricardo@terra.com.br', '123','','123','2014-05-25')";
+$sql = "INSERT INTO tb_alunos(nome, email, senha, cpf, rg, dtNasc) VALUES('Ricardo','ricardo@terra.com.br', '123','456','123','2014-05-25')";
 
 $sql = "INSERT INTO tb_alunos(nome, email, senha, cpf, rg, dtNasc) VALUES('Sandra','sandra@terra.com.br', '123','123','123','2014-05-25')";
 
